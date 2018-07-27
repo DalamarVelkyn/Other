@@ -8,9 +8,85 @@ body
 	background-image: url(background.jpg);
 }
 
-h1
+h2
+{
+	padding-top: 10px;
+	text-align: center;
+}
+
+h3
 {
 	text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-track { 
+    border-radius: 2px;
+	background: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #808080; 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #4d4d4d; 
+}
+
+.mainspan
+{
+	position: absolute;
+	top: 100px;
+	margin: auto;
+	width: 600px;
+	height: 575px;
+	overflow: auto;
+}
+
+.educol1
+{
+	float: left;
+	width: 280px;
+	height: 500px;	
+}
+
+.educol2
+{
+	float: right;
+	width: 280px;
+	height: 500px;
+}
+
+.col1
+{
+	float: left;
+	width: 280px;
+	height: 300px;
+}
+
+.col2
+{
+	float: right;
+	width: 280px;
+	height: 300px;
+}
+
+.col3
+{
+	float: left;
+	width: 280px;
+	height: 300px;
+}
+
+.col4
+{
+	float: right;
+	width: 280px;
+	height: 300px;
 }
 
 .corner
@@ -22,7 +98,7 @@ h1
 	height: 200px;
 	background: url(corner.png);
 	background-size: 200px 200px;
-	z-index: 3;
+	z-index: 1;
 }
 
 a
@@ -79,12 +155,13 @@ a
 .cover
 {
 	display: block;
+	overflow: auto;
 	opacity: 0;
 	position: absolute;
 	width: 375px;
-	height: 80%;
+	height: 500px;
 	left: 100px;
-	bottom: 1%;
+	top: 15%;
 }
 
 .close-panel
@@ -121,7 +198,7 @@ a
 	height: 50px;
 	text-align: center;
 	border-radius: 25px;
-	z-index: 5;
+	z-index: 4;
 	background-image: url(circle.png);
     background-repeat: no-repeat;
     background-size: 50px 50px;
@@ -148,7 +225,7 @@ a
 	background-size: contain;
 	background-repeat: no-repeat;
 	font-size: 13px;
-	z-index: 2;
+	z-index: 1;
 	text-shadow: -2px -2px 10px blue, 2px 2px 10px blue;
 	color: transparent;
 }
@@ -207,6 +284,7 @@ a
 	height: 35px;
 	background-image: url(gems.png);
 	background-size: 35px 35px;
+	font-size: 12px;
 }
 
 .work-experience:hover
@@ -253,6 +331,7 @@ a
 	margin-top: -590px;
 	width: 600px;
 	height: 575px;
+	z-index: 3;
 }
 
 @keyframes contract

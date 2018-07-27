@@ -1,0 +1,21 @@
+body
+{
+	background-image: url("background.jpg");
+	overflow: hidden;
+}
+
+div
+{
+	border: 1px solid black;
+	height: 760px;
+	width: 5750px;
+}
+
+.part
+{
+	margin: 29px 65px; 
+	float: left;
+	border: 1px solid black;
+	height: 700px;
+	width: 1300px;
+}
